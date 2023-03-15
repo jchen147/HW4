@@ -1,0 +1,6 @@
+1. No
+2. Yes
+3. Variable a will not be changed after the function call because variable a is simply assigned as an integer and 
+   its value cannot be changed after being created. Variable b, however, will be changed after the function call
+   because variable b is assigned as an integer in a list and any integers passed in a list will be passed
+   by reference when used in a function call and will change the value of variable b to [33].
