@@ -1,4 +1,5 @@
 def merge(list1, list2):
 
     list12 = list1 + list2
-    return list12
+    sortedList = sorted(list12)
+    return sortedList
